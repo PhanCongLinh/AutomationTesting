@@ -1,4 +1,4 @@
-# AutomationTesting Project Readme
+# Automation Testing Project Readme
 Overview
   Welcome to the API Testing Project! 
   This project is designed to facilitate automated testing of website, ensuring their functionality, reliability, and performance. 
@@ -8,8 +8,10 @@ Project Structure
   The project is organized as follows:
     /src/.../testcase: This directory contains test cases files.
     /configuration: Configuration files for managing environment-specific variables.
-    /src/.../automation/base: contain files for basic setup method like driver instance.
-    /src/.../automation/pom
+    /src/.../automation/base: contain java files for basic setup method like driver instance.
+    /src/.../automation/pom: contain java files for reuseable method for all automation testing function. 
+    /src/.../automation/utils: Utility functions and helpers for common tasks.
+    /src/.../automation/screenshot: contain screenshot images of all failure test cases.
     
 How it works
   "propertiesFileUtils" java file in /src/.../utils used to get and save data such as baseURL, account, password,... for your API request. Ensure that it is written in key=value format.
