@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-19T14:17:29 ICT" name="Default suite" finished-at="2023-11-19T14:17:34 ICT" duration-ms="4744">
+    <groups>
+    </groups>
+    <test started-at="2023-11-19T14:17:29 ICT" name="Default test" finished-at="2023-11-19T14:17:34 ICT" duration-ms="4744">
+      <class name="com.automation.testcase.TC_loginTest">
+        <test-method is-config="true" signature="initDriverInstance()[pri:0, instance:com.automation.testcase.TC_loginTest@4c1909a3]" started-at="2023-11-19T14:17:29 ICT" name="initDriverInstance" finished-at="2023-11-19T14:17:32 ICT" duration-ms="3228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriverInstance -->
+        <test-method signature="TC_loginAccount()[pri:0, instance:com.automation.testcase.TC_loginTest@4c1909a3]" started-at="2023-11-19T14:17:32 ICT" name="TC_loginAccount" data-provider="Excel" finished-at="2023-11-19T14:17:33 ICT" duration-ms="621" status="FAIL">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+[public void com.automation.testcase.TC_loginTest.TC_loginAccount() throws java.lang.InterruptedException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: TC_loginAccount([])
+Arguments: [(java.lang.String) funixExample1@gmail.com,(java.lang.String) Abc@1234]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void com.automation.testcase.TC_loginTest.TC_loginAccount() throws java.lang.InterruptedException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: TC_loginAccount([])
+Arguments: [(java.lang.String) funixExample1@gmail.com,(java.lang.String) Abc@1234]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:914)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_loginAccount -->
+        <test-method is-config="true" signature="closeDriverInstance()[pri:0, instance:com.automation.testcase.TC_loginTest@4c1909a3]" started-at="2023-11-19T14:17:33 ICT" name="closeDriverInstance" finished-at="2023-11-19T14:17:34 ICT" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverInstance -->
+      </class> <!-- com.automation.testcase.TC_loginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
